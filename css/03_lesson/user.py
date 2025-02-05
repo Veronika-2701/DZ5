@@ -4,18 +4,10 @@ class User:
         self.last_name = last_name
 
     def get_first_name(self):
-        print(self.first_name)
+        return self.first_name
 
     def get_last_name(self):
-        print(self.first_name)
+        return self.last_name
 
     def get_full_name(self):
-        print(self.first_name, self.last_name)
-
-Veronika = User("Veronika", "Ivanova")
-Ivanova = User("Ivanova", "Veronika")
-Veronika_Ivanova = User("Veronika", "Ivanova")
-
-Veronika.get_first_name()
-Ivanova.get_last_name()
-Veronika_Ivanova.get_full_name()
+        return f"{self.first_name} {self.last_name}"
