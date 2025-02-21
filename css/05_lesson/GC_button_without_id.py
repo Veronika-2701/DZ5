@@ -10,6 +10,6 @@ driver.maximize_window()
 driver.get("http://uitestingplayground.com/dynamicid")
 driver.find_element(By.CLASS_NAME, "btn.btn-primary").click()
 
-sleep(5)
+sleep(2)
 
 driver.quit()

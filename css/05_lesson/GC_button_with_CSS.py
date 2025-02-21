@@ -10,6 +10,6 @@ driver.maximize_window()
 driver.get("http://uitestingplayground.com/classattr")
 button_add = driver.find_element(By.CSS_SELECTOR, "button.btn-primary.btn-test").click()
 
-sleep(5)
+sleep(2)
 
 driver.quit()

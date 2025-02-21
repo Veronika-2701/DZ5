@@ -15,6 +15,6 @@ password.send_keys("SuperSecretPassword!")
 
 driver.find_element(By.CSS_SELECTOR, "button.radius").click()
 
-sleep(10)
+sleep(2)
 
 driver.quit()

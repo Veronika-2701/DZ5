@@ -17,6 +17,6 @@ button_delete = driver.find_elements(By.CLASS_NAME, "added-manually")
 
 print(f"Количество кнопок Delete: {len(button_delete)}")
 
-sleep(10)
+sleep(2)
 
 driver.quit()
