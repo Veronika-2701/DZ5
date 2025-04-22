@@ -17,4 +17,5 @@ class YouGile:
     def req_put(self, req_type="PUT", url="", data={}):
         headers = {'Authorization': 'Bearer '+ self.token, 'Accept': 'application/json'}
         return requests.request(req_type, self.base_url + url, headers=headers, json=data)
-    
+
+
